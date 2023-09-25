@@ -1,0 +1,17 @@
+/** @format */
+
+.portfolio {
+  display: flex;
+  padding: 3.125rem 6.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.portfolio .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
