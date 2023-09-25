@@ -4,14 +4,16 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Services from "./Components/Services";
 
-import styles from "./App.module.css";
+
+import Portfolio from "./Components/Portfolio";
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div >
       <Navbar />
       <Hero />
       <Services />
+      <Portfolio />
     </div>
   );
 }
