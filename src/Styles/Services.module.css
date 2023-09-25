@@ -1,0 +1,87 @@
+/** @format */
+/* 
+:root {
+  --primary-color: #333;
+  --background-color: #f7f7f7;
+  --header1-font-family: "Playfair Display", serif;
+  --header1-font-size: 2.5rem;
+  --header2-font-family: "EB Garamond", serif;
+  --header2-line-height: 100%;
+  --header2-font-size: 1.25rem;
+  --header2-font-weight: 600;
+  --header3-font-family: "EB Garamond", serif;
+  --header3-font-size: 1rem;
+  --header3-line-height: 140%;
+} */
+.services {
+  padding: 3.125rem 6.25rem;
+}
+
+.services .container {
+  display: flex;
+
+  justify-content: center;
+}
+.services .container .frame1 {
+  flex: 1;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.875rem;
+  padding: 9.37rem 2rem 0 14.25rem;
+}
+
+.services .container .frame1 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+.services .container .frame1 header {
+  width: 33.6875rem;
+}
+
+.services .container .frame1 header span {
+  font-family: var(--header1-font-family);
+  font-size: var(--header1-font-size);
+  color: var(--primary-color);
+}
+
+.services .frame1 div main {
+  width: 29.0625rem;
+}
+
+.services .frame2 {
+  display: inline-flex;
+  padding: 5.375rem 6.25rem 5.6875rem 4.81rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.75rem;
+  flex: 1;
+}
+
+.services .frame2 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+.services .frame2 div header span {
+  color: var(--primary-color);
+  font-family: var(--header2-font-family);
+  font-size: var(--header2-font-size);
+  font-weight: var(--header2-font-weight);
+  line-height: var(--header2-line-height);
+}
+
+.services .frame2 div main {
+  width: 31.4375rem;
+}
+
+.services .frame2 div main p {
+  color: var(--primary-color);
+  font-family: var(--header3-font-family);
+  font-size: var(--header3-font-size);
+  font-weight: var(--header3-font-weight);
+  line-height: var(--header3-line-height);
+}
