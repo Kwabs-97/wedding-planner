@@ -2,22 +2,24 @@
 
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Playfair+Display:wght@700&display=swap");
 
-  :root {
-    --primary-color: #333;
-    --background-color: #f7f7f7;
-    --header1-font-family: "Playfair Display", serif;
-    --header1-font-size: 2rem;
-    --header2-font-family: "EB Garamond", serif;
-    --header2-line-height: 100%;
-    --header2-font-size: 1.25rem;
-    --header2-font-weight: 600;
-    --header3-font-family: "EB Garamond", serif;
-    --header3-font-size: 1rem;
-    --header3-line-height: 140%;
-  }
+:root {
+  --primary-color: #333;
+  --background-color: #f7f7f7;
+  --header1-font-family: "Playfair Display", serif;
+  --header1-font-size: 2rem;
+  --header2-font-family: "EB Garamond", serif;
+  --header2-line-height: 100%;
+  --header2-font-size: 1.25rem;
+  --header2-font-weight: 600;
+  --header3-font-family: "EB Garamond", serif;
+  --header3-font-size: 1rem;
+  --header3-line-height: 140%;
+}
 
 html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
