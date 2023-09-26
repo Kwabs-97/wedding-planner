@@ -1,0 +1,81 @@
+/** @format */
+.article {
+  display: flex;
+  padding: 3.125rem 6.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.article .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.article .container header {
+  color: #333;
+  font-family: Playfair Display;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.article .container main {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+.article .container main .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.article .container main .frame .frameImg {
+  width: 25rem;
+  height: 18.5rem;
+}
+
+.article .container main .frame .img1 {
+  background: url("../Components/assets/articleImg1.webp") no-repeat center;
+  background-size: cover;
+}
+.article .container main .frame .img2 {
+  background: url("../Components/assets/articleImg2.webp") no-repeat top;
+  background-size: cover;
+}
+
+.article .container main .frame .img3 {
+  background: url("../Components/assets/articleImg3.webp") no-repeat center;
+  background-size: cover;
+}
+
+.article .container main .frame .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+.article .container main .frame .content .date {
+  color: #333;
+  font-family: EB Garamond;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.article .container main .frame .content .text {
+  color: #333;
+  font-family: EB Garamond;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 1.8rem */
+  width: 21.9375rem;
+}

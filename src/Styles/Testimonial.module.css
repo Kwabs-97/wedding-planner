@@ -1,0 +1,67 @@
+/** @format */
+
+.testimonial {
+  display: flex;
+  padding: 3.125rem 6.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.testimonial .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.testimonial .container span {
+  color: #333;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.testimonial .container .testimonialFrame {
+  display: flex;
+  padding: 1.875rem 6.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  background: #eeefed;
+}
+
+.testimonial .container .testimonialFrame .testimonialContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.testimonial .container .testimonialContainer .textContainer {
+  width: 64.25rem;
+}
+.testimonial .container .testimonialContainer .textContainer article {
+  color: #333;
+  text-align: center;
+  font-family: EB Garamond;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%; /* 2.25rem */
+}
+
+.testimonial .container .testimonialContainer .footer span {
+  color: #333;
+  text-align: center;
+  font-family: EB Garamond;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 3.375rem */
+}
