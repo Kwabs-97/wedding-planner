@@ -30,7 +30,7 @@ function Navbar() {
         <ul>
           <li>
             {navLinks.map((link) => {
-              return <a key={link.id}>{link.link}</a>;
+              return <a key={link.id} href="#">{link.link}</a>;
             })}
           </li>
         </ul>
