@@ -6,7 +6,7 @@ import Button from "./Features/Button";
 
 function Hero() {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id="Home">
       <div className={styles.container}>
         <header>
           <span>Capturing your love story</span>

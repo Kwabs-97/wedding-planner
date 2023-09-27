@@ -5,7 +5,7 @@ import styles from "../Styles/Portfolio.module.css";
 import Button from "./Features/Button";
 function Portfolio() {
   return (
-    <div className={styles.portfolio}>
+    <div className={styles.portfolio} id="Portfolio">
       <div className={styles.container}>
         <div className={styles.headerContainer}>
           <header>Our Latest Works</header>

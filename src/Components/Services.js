@@ -6,7 +6,7 @@ import Button from "./Features/Button";
 
 function Services() {
   return (
-    <div className={styles.services}>
+    <div className={styles.services} id="Services">
       <div className={styles.container}>
         <section className={styles.frame1}>
           <div>
