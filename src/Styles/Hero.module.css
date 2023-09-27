@@ -1,11 +1,8 @@
 /** @format */
 
 .hero {
-  display: flex;
   padding: 3.125rem 6.25rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   gap: 0.625rem;
   background: #f7f7f7;
 }

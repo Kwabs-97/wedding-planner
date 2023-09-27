@@ -19,7 +19,6 @@
 
 .services .container {
   display: flex;
-
   justify-content: center;
 }
 .services .container .frame1 {
@@ -28,7 +27,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1.875rem;
-  padding: 9.37rem 2rem 0 14.25rem;
+
 }
 
 .services .container .frame1 > div {

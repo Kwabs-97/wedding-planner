@@ -97,3 +97,11 @@ footer .footerContainer .inputContainer input.input:not(:focus):not(.hasValue) ~
   transition: all 0.5s ease;
   font-size: 1rem; /* You can set the original font-size here */
 }
+
+footer .line {
+  opacity: 0.4;
+  background: #a6a2a2;
+  width: 100%;
+  height: 0.0625rem;
+  margin: 2.37rem 0 2.37rem 0;
+}
