@@ -1,13 +1,15 @@
 /** @format */
 
-footer {
+footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-
 footer .footerContainer {
   display: inline-flex;
   align-items: center;
   gap: 9.0625rem;
-  margin: 2.94rem 6.25rem 0 24.44rem;
+  padding: 3.125rem 6.25rem;
 }
 
 footer .footerContainer .links {
@@ -31,6 +33,13 @@ footer .footerContainer .links li a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: all 0.5s ease;
+}
+footer .footerContainer .links li a:hover {
+  color: #d3874a;
+  transition: all 0.5s ease;
+  transform: scaleX(1.1);
+  cursor: pointer;
 }
 
 footer .footerContainer .inputContainer {
@@ -45,8 +54,8 @@ footer .footerContainer .inputContainer {
 }
 
 footer .footerContainer .inputContainer input {
-  padding: 1.75rem 1.25rem 0.8125rem 1.875rem;
-  width: 22rem;
+  padding: 0.75rem 1.25rem 0.8125rem 1.85rem;
+  width: 20rem;
   color: black;
   font-family: "EB Garamond", serif;
   font-size: 1rem;
@@ -59,7 +68,7 @@ footer .footerContainer .inputContainer input {
 
 footer .footerContainer .inputContainer label {
   position: absolute;
-  left: 61rem;
+  left: 42.8rem;
   color: #8b8b8b;
   font-family: "EB Garamond", serif;
   font-size: 1rem;
@@ -87,7 +96,7 @@ footer .footerContainer .inputContainer input.input:not(:focus) ~ label {
 
 footer .footerContainer .inputContainer input:focus ~ label,
 footer .footerContainer .inputContainer input.hasValue ~ label {
-  transform: translateY(-11px);
+  transform: translateY(-20px);
   transition: all 0.5s ease;
   font-size: 0.8rem;
 }
@@ -98,10 +107,17 @@ footer .footerContainer .inputContainer input.input:not(:focus):not(.hasValue) ~
   font-size: 1rem; /* You can set the original font-size here */
 }
 
-footer .line {
+footer .container .line {
   opacity: 0.4;
   background: #a6a2a2;
   width: 100%;
   height: 0.0625rem;
-  margin: 2.37rem 0 2.37rem 0;
+}
+
+footer .container .socialsContainer {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.125rem 6.25rem;
 }
