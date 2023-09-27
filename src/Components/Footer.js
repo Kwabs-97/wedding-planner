@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import styles from "../Styles/Footer.module.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Button from "./Features/Button";
@@ -27,10 +27,14 @@ function Footer() {
   const [hasValue, setHasValue] = useState(false);
 
   const handleOnChange = (e) => {
-    if (e.target.value.trim() !== "") {
+    let value = e.target.value;
+    if (value.trim() !== "") {
       setHasValue(true);
+    } else {
+      setHasValue(false);
     }
   };
+  const inputClass = hasValue ? styles.hasValue : styles.input;
 
   return (
     <footer>
@@ -49,8 +53,10 @@ function Footer() {
           </ul>
         </div>
         <div className={styles.inputContainer}>
-          <input type="email" id="email" onChange={handleOnChange} className={styles.hasValue} />
-          <label htmlFor="email" className={styles.label}>Email address</label>
+          <input type="email" id="email" onChange={handleOnChange} className={inputClass} />
+          <label htmlFor="email" className={styles.label}>
+            Email address
+          </label>
           <Button>Subscribe</Button>
         </div>
       </div>

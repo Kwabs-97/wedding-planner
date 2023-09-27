@@ -38,35 +38,23 @@ footer .footerContainer .inputContainer {
   padding: 0.5rem 1.25rem 0.5rem 1.875rem;
   justify-content: flex-end;
   align-items: center;
-  gap: 5.5625rem;
+  gap: 1.5625rem;
   border-radius: 0.625rem;
   border: 1px solid #bbb0b0;
   background: #fff;
 }
 
 footer .footerContainer .inputContainer input {
-  padding: 1.75rem 10.25rem 0.8125rem 1.875rem;
-  width: 100%;
+  padding: 1.75rem 1.25rem 0.8125rem 1.875rem;
+  width: 22rem;
   color: black;
   font-family: "EB Garamond", serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   border: none;
   outline: none;
-}
-
-footer .footerContainer .inputContainer input:focus ~ label {
-  transform: translateY(-11px);
-  transition: all 0.5s ease;
-  font-size: 0.8rem;
-}
-
-footer .footerContainer .inputContainer input.hasVal  ue:not(:focus) ~ label {
-  transform: translateY(-11px);
-  transition: all 0.5s ease;
-  font-size: 0.8rem;
 }
 
 footer .footerContainer .inputContainer label {
@@ -79,4 +67,33 @@ footer .footerContainer .inputContainer label {
   font-weight: 400;
   line-height: 150%;
   transition: all ease 0.5s;
+}
+
+/* footer .footerContainer .inputContainer input:focus ~ label {
+  transform: translateY(-11px);
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+
+footer .footerContainer .inputContainer input.hasValue:not(:focus) ~ label {
+  transform: translateY(-11px);
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+
+footer .footerContainer .inputContainer input.input:not(:focus) ~ label {
+  transition: 250ms cubic-bezier(1, 0.1, 0, 0.5) 0s;
+} */
+
+footer .footerContainer .inputContainer input:focus ~ label,
+footer .footerContainer .inputContainer input.hasValue ~ label {
+  transform: translateY(-11px);
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+
+footer .footerContainer .inputContainer input.input:not(:focus):not(.hasValue) ~ label {
+  transform: translateY(0);
+  transition: all 0.5s ease;
+  font-size: 1rem; /* You can set the original font-size here */
 }

@@ -16,4 +16,11 @@ button {
   background: #d3874a;
   border: transparent;
   outline: none;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background-color: #d3884ab0;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
