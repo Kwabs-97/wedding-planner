@@ -121,3 +121,12 @@ footer .container .socialsContainer {
   gap: 1.25rem;
   padding: 1.125rem 6.25rem;
 }
+
+footer .container .socialsContainer svg {
+  transition: all ease 0.5s;
+}
+footer .container .socialsContainer svg:hover {
+  cursor: pointer;
+  transition: all ease 0.5s;
+  transform: scale(1.1);
+}
